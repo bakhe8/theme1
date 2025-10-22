@@ -1,5 +1,4 @@
-﻿const path = require("path");
-
+const path = require("path");
 module.exports = {
     entry: {
         app: ["./src/assets/styles/app.scss", "./src/assets/js/app.js"]
@@ -12,11 +11,7 @@ module.exports = {
         rules: [
             {
                 test: /\.scss$/,
-                use: [
-                    "style-loader",
-                    "css-loader", 
-                    "sass-loader"
-                ]
+                use: ["style-loader", "css-loader", "sass-loader"]
             }
         ]
     }
