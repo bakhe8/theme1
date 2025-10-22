@@ -11,7 +11,18 @@
         "color",
         "breadcrumb",
         "component-featured-products",
-        "component-products-slider"
+        "component-products-slider",
+        "mega-menu",
+        "unite-cards-height",
+        "component-fixed-banner",
+        "component-fixed-products",
+        "component-photos-slider",
+        "component-parallax-background",
+        "component-random-testimonials",
+        "component-testimonials",
+        "component-square-photos",
+        "component-store-features",
+        "component-youtube"
     ],
     "settings": [
         {
