@@ -1,9 +1,45 @@
 {
-    "name": "Theme1",
-    "version": "1.0.0",
-    "description": "My Custom Salla Theme",
-    "author": "Your Name",
-    "assets_url": "http://localhost:8000",
-    "use_cdn": false,
-    "hot_reload": true
+    "name": {
+        "ar": "ثيم 1",
+        "en": "Theme1"
+    },
+    "repository": "https://github.com/bakhe8/theme1",
+    "author_email": "bakheet@gmail.com",
+    "features": [
+        "fonts",
+        "color",
+        "breadcrumb",
+        "component-featured-products",
+        "component-products-slider"
+    ],
+    "settings": [
+        {
+            "type": "boolean",
+            "icon": "sicon-toggle-off",
+            "label": "تفعيل التحميل السريع",
+            "id": "hot_reload",
+            "format": "switch",
+            "required": false,
+            "value": false,
+            "selected": false
+        },
+        {
+            "type": "string",
+            "icon": "sicon-link",
+            "label": "رابط Assets",
+            "id": "assets_url",
+            "value": "/",
+            "required": false,
+            "format": "text",
+            "description": "استخدم / للإنتاج"
+        }
+    ],
+    "components": [
+        // ... your components
+    ],
+    "support_url": "https://salla.dev/docs/themes/theme-development/",
+    "description": {
+        "ar": "ثيم مخصص لمتجر سلة",
+        "en": "Custom theme for Salla store"
+    }
 }

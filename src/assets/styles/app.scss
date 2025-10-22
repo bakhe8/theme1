@@ -1,4 +1,8 @@
 ﻿/* TEST: Development Mode Active */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   background: red !important;
   border: 20px solid green !important;
