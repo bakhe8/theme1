@@ -1,0 +1,19 @@
+﻿{
+  "name": "theme1",
+  "version": "1.0.0",
+  "description": "Salla Theme",
+  "scripts": {
+    "development": "webpack --mode development",
+    "watch": "webpack --mode development --watch", 
+    "production": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@salla.sa/twilight": "^2.14.264",
+    "@salla.sa/twilight-tailwind-theme": "^2.14.264",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^5.0.1",
+    "sass": "^1.85.1",
+    "sass-loader": "^13.3.3",
+    "tailwindcss": "^3.4.1"
+  }
+}

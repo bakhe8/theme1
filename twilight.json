@@ -1,0 +1,9 @@
+﻿{
+    "name": "Theme1",
+    "version": "1.0.0",
+    "description": "My Custom Salla Theme", 
+    "author": "Your Name",
+    "assets_url": "http://localhost:8000",
+    "use_cdn": false,
+    "hot_reload": true
+}
