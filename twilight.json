@@ -24,17 +24,7 @@
         "component-store-features",
         "component-youtube"
     ],
-    "settings": [
-        {
-            "id": "title",
-            "type": "static",
-            "format": "title",
-            "label": "Title",
-            "value": "255",
-            "variant": "h1",
-            "icon": "sicon-format-text"
-        }
-    ],
+    "settings": [],
     "components": [
         {
             "key": "main-slider",
