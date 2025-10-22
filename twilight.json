@@ -13,7 +13,17 @@
         "component-featured-products",
         "component-products-slider"
     ],
-    "settings": [],
+    "settings": [
+        {
+            "id": "title",
+            "type": "static",
+            "format": "title",
+            "label": "Title",
+            "value": "255",
+            "variant": "h1",
+            "icon": "sicon-format-text"
+        }
+    ],
     "components": [
         {
             "key": "main-slider",
