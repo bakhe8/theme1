@@ -32,6 +32,32 @@
             "required": false,
             "format": "text",
             "description": "رابط الخادم المحلي للتطوير"
+        },
+        {
+            "id": "collection",
+            "type": "collection",
+            "format": "collection",
+            "label": "Collection",
+            "description": null,
+            "labelHTML": null,
+            "item_label": null,
+            "icon": "sicon-list-add",
+            "fields": [],
+            "value": [],
+            "minLength": 1,
+            "maxLength": 5
+        },
+        {
+            "id": "switch",
+            "type": "boolean",
+            "format": "switch",
+            "label": "Switch",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-toggle-off",
+            "value": true,
+            "selected": false,
+            "required": false
         }
     ],
     "components": [
