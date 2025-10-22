@@ -13,18 +13,7 @@
         "component-featured-products",
         "component-products-slider"
     ],
-    "settings": [
-        {
-            "type": "boolean",
-            "icon": "sicon-toggle-off",
-            "label": "تفعيل التحميل السريع",
-            "id": "hot_reload",
-            "format": "switch",
-            "required": false,
-            "value": false,
-            "selected": false
-        }
-    ],
+    "settings": [],
     "components": [
         {
             "key": "main-slider",
